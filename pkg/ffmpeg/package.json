@@ -1,0 +1,17 @@
+{
+	"name": "@bunos/ffmpeg",
+	"version": "0.0.1",
+	"bin": "build/ffmpeg/ffmpeg",
+	"files": [
+		"build/ffmpeg"
+	],
+	"scripts": {
+		"build": "bun build.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"bun-types": "^0.1.4",
+		"bun-utilities": "^0.1.5",
+		"typescript": "^4.7.4"
+	}
+}
